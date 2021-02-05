@@ -1,0 +1,57 @@
+/* Resetear los stilos default del navegador */
+
+/*Selectores Universales*/
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.main_nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: lightskyblue;
+    align-items: left;
+}
+
+.main_nav__item {
+    display: inline-block;
+}
+
+.main_nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.circular--square {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+
+ .circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.figure_opciones {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
