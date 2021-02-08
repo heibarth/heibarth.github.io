@@ -25,6 +25,13 @@
     border-radius: 2px;
     text-decoration: none;
 }
+.menu_central {
+    /*display: inline-block;*/
+    position: relative;
+    width: 800px;
+    height: 1000px;
+    overflow: hidden;
+  }
 .circular--square {
     border-radius: 50%;
     display: inline-block;
